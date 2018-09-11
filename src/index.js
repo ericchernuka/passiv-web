@@ -8,7 +8,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { createBrowserHistory } from 'history';
 import { ConnectedRouter, connectRouter, routerMiddleware } from 'connected-react-router';
 import rootReducer from './reducers';
-import './index.css';
+import './normalize.css';
+import './tailwind.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
